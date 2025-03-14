@@ -1,0 +1,52 @@
+body {
+  background-color: #23252b;
+  color: white;
+}
+
+.app-title{
+  text-align: center;
+}
+
+.app-container > form{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+}
+
+.app-container > form > input {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #23252b;
+  color: white;
+}
+
+.app-container > form > button {
+  padding: 10px;
+  font-size: 16px;
+  width: 30%;
+  border-radius: 4px;
+  border: none;
+  background-color: #23252b;
+  color: white;
+}
+
+.app-container > button:hover {
+  background-color: #3a3c44;
+}
+
+app-container > form > img {
+  width: 100px;
+  height: 100px;
+}
+
+.qrcode-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
