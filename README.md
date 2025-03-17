@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# Gerador de QR Codes (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo web simples para gerar QR codes a partir de URLs, construído com React e Vite.
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/0b8a9158-cf69-4da6-a34f-ce8bcebd1f83)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+* Geração rápida de QR codes a partir de URLs.
+* Interface de usuário responsiva e intuitiva.
+* Desenvolvido com React e Vite para um desempenho otimizado.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tecnologias
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+* **Vite:** Ferramenta de build extremamente rápida para desenvolvimento web moderno.
+* **qrcode** Biblioteca JavaScript para geração de QR codes.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como usar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1.  Insira a URL desejada no campo de texto.
+2.  Clique no botão "Gerar QR Code".
+3.  O QR code será exibido na tela.
+   
+## Instalação
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1.  Clone este repositório: `git clone https://docs.github.com/articles/referencing-and-citing-content`
+2.  Navegue até o diretório do projeto
+3.  Instale as dependências: `npm install` ou `yarn install` ou `pnpm install`
+4.  Inicie o servidor de desenvolvimento: `npm run dev` ou `yarn dev` ou `pnpm run dev`
+5.  Abra o aplicativo no seu navegador: `http://localhost:5173` (ou a porta especificada pelo Vite).
+
+## Build para produção
+
+Para construir uma versão otimizada para produção:
+
+```bash
+npm run 
