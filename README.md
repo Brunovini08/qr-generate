@@ -2,7 +2,7 @@
 
 Este é um aplicativo web simples para gerar QR codes a partir de URLs, construído com React e Vite.
 
-![image](https://github.com/user-attachments/assets/0b8a9158-cf69-4da6-a34f-ce8bcebd1f83)
+![image](https://github.com/user-attachments/assets/82e31a80-45c0-4674-a5e7-d3c7b10525a8)
 
 ## Funcionalidades
 
